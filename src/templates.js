@@ -6,7 +6,7 @@
  */
 
 const { param, pascal } = require('change-case');
-const { toString } = require('@carbon/icon-helpers');
+const { toString } = require('@rocketsoftware/icon-helpers');
 
 const classCase = str => {
   const pascalled = pascal(str);
@@ -144,7 +144,7 @@ import {
   Input,
   AfterViewInit
 } from "@angular/core";
-import { getAttributes } from "@carbon/icon-helpers";
+import { getAttributes } from "@rocketsoftware/icon-helpers";
 
 ${componentTemplate(namespace)}
 

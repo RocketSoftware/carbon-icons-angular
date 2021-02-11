@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const iconMetadata = require('@carbon/icons/metadata.json');
+const iconMetadata = require('@rocketsoftware/icons/metadata.json');
 const { reporter } = require('@carbon/cli-reporter');
 const fs = require('fs-extra');
 
@@ -169,7 +169,7 @@ function ngCompile(options) {
 const getRollupInputOptions = ({sourceType, namespace}) => ({
   external: [
     '@angular/core',
-    '@carbon/icon-helpers'
+    '@rocketsoftware/icon-helpers'
   ],
   input: `${paths.DIST}/${sourceType}/${namespace ? namespace : ''}/index.js`,
   onwarn(warning) {
@@ -184,7 +184,7 @@ const getRollupOutputOptions = ({file, format, name}) => ({
   format,
   globals: {
     '@angular/core': 'ng.core',
-    '@carbon/icon-helpers': 'CarbonIconHelpers'
+    '@rocketsoftware/icon-helpers': 'CarbonIconHelpers'
   },
   name
 });
@@ -257,7 +257,7 @@ async function writeMetadata() {
     version: 4,
     metadata: {},
     exports: [],
-    importAs: '@carbon/icons-angular'
+    importAs: '@rocketsoftware/icons-angular'
   };
 
   for (const iconMeta of iconMetadata.icons) {

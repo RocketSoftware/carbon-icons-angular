@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "@carbon/icons-angular",
+  "name": "@rocketsoftware/icons-angular",
   "description": "Angular components for icons in digital and software products using the Carbon Design System",
   "version": "0.0.0",
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
       "entryFile": "ts/index.ts"
     },
     "whitelistedNonPeerDependencies": [
-      "@carbon/icon-helpers"
+      "@rocketsoftware/icon-helpers"
     ]
   },
   "release": {
@@ -31,8 +31,8 @@
       }
     ]
   },
-  "repository": "https://github.com/carbon-design-system/carbon-icons-angular",
-  "bugs": "https://github.com/carbon-design-system/carbon-icons-angular/issues",
+  "repository": "https://github.com/Rocketsoftware/carbon-icons-angular",
+  "bugs": "https://github.com/Rocketsoftware/carbon-icons-angular/issues",
   "keywords": [
     "ibm",
     "elements",
@@ -59,14 +59,14 @@
     "@angular/core": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0"
   },
   "dependencies": {
-    "@carbon/icon-helpers": "10.6.0"
+    "@rocketsoftware/icon-helpers": "0.7.0"
   },
   "devDependencies": {
     "@angular/compiler": "9.1.1",
     "@angular/compiler-cli": "9.1.1",
     "@angular/core": "9.1.1",
     "@carbon/cli-reporter": "10.3.0",
-    "@carbon/icons": "10.18.0",
+    "@rocketsoftware/icons": "0.7.0",
     "change-case": "3.0.2",
     "fs-extra": "7.0.1",
     "ng-packagr": "9.1.0",

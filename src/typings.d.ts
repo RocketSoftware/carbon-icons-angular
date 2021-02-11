@@ -1,1 +1,1 @@
-declare module '@carbon/icon-helpers';
+declare module '@rocketsoftware/icon-helpers';
